@@ -60,7 +60,6 @@ const About = () => {
   loop={true}
   showCursor={true}
   cursorChar="_"
-  
 />
         <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
          
