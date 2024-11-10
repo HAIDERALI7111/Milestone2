@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <Image
-              src={require("../../../public/logos/Haider.png")}
+              src={require("../../../public/logos/800_4018908_1w8ozl6xpap47ph0l7em0gx4fc557dm8ege9h7ys_ha-monogram-logo-design-v6.jpg")}
               alt="Haider"
               width={100}
               height={100}
