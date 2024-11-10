@@ -28,8 +28,8 @@
 
 
   "overrides": {
-    "typewriter-effect": {
+    "typewriter-effect": "2.20.1", 
       "react": "^19.0.0-rc"
-    }
+    
   }
 }
