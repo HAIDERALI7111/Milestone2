@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import Typewriter from 'typewriter-effect';
+import TypingEffect from 'react-typed.ts';
 
 
 
@@ -51,12 +51,16 @@ const About = () => {
             </a>
           </span>
         </div>
-        <Typewriter
-  options={{
-    strings: ['My Name Is Haider Ali And I Am From Karachi Pakistan I Am A Student Of BBA Part 2 And I Have Completed My Intermediate From Karachi Board And I Am Learning Artificial Intelligence Metaverse And Web 3.0 From Governor Sindh It Initiative Governor House Karachi Pakistan'],
-    autoStart: true,
-    loop: true,
-  }}
+        <TypingEffect
+    strings={['My Name Is Haider Ali And I Am From Karachi Pakistan I Am A Student Of BBA Part 2 And I Have Completed My Intermediate From Karachi Board And I Am Learning Artificial Intelligence Metaverse And Web 3.0 From Governor Sindh It Initiative Governor House Karachi Pakistan']}
+    typeSpeed={70}
+  backSpeed={50}
+  startDelay={1000}
+  backDelay={500}
+  loop={true}
+  showCursor={true}
+  cursorChar="_"
+  
 />
         <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
          

@@ -4,7 +4,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Typewriter from "typewriter-effect";
+import TypingEffect from 'react-typed.ts';
 
 const Hero = () => {
   return (
@@ -14,17 +14,20 @@ const Hero = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             I Am a:
             <br className="hidden lg:inline-block" />
-            <Typewriter
-              options={{
-                strings: [
+            <TypingEffect
+                strings={[
                   "Web Developer",
                   "UI/UX Designer",
                   "Travel Agent",
                   "Operation Theatre Technician",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
+                ]}
+                typeSpeed={70}
+                backSpeed={50}
+                startDelay={1000}
+                backDelay={500}
+                loop={true}
+                showCursor={true}
+                cursorChar="_"
             />
           </h1>
           <div className="w-[100px] h-[2px] bg-blue-700"></div>
